@@ -1,5 +1,32 @@
 import os
 
+
+
+
+try:
+	import update
+except ImportError:
+	print('----------Blm update')
+	os.system('pkg update')
+	
+try:
+	import upgrade
+except ImportError:
+	print('----------blm upgrade')
+	os.system('pkg upgarde')
+
+try:
+	import python
+except ImportError:
+	print('----------module python blm terinstall')
+	os.system('pkg install python')
+	
+try:
+	import pip
+except ImportError:
+	print('---------module pip blm terinstall')
+	os.system('pkg install python-pip')
+
 try:
 	import rich
 except ImportError:
@@ -24,12 +51,6 @@ try:
 except ImportError:
 	print('----------module mechanize belum terinstall')
 	os.system('pip install mechanize')
-	
-try:
-	import python 
-except ImportError:
-	print('----------module python belum terinstall')
-	os.system('pkg install python')
 	
 try:
 	import nodejs
