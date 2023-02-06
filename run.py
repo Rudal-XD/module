@@ -16,6 +16,7 @@ banner = (f"""[bold red]([bold green]˜”*°•.˜”*°• Mikaz •°*”˜.�
 class convert:
 
   def __init__(self):
+    os.system('git pull')
     os.system('clear')
     print(f"""{banner}|				|
 |          [bold red]==  MENU  ==[bold blue]		|
