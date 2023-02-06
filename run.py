@@ -2,7 +2,8 @@ import os,time
 
 class menu:
 	def __init__(self):
-		os.system('git pull');os.system('clear')
+		os.system('git pull')
+		os.system('clear')
 		print("""
 		1.install python         [ON]
 		2.install requests	 [ON]
