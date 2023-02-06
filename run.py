@@ -29,9 +29,9 @@ class convert:
     masuk = input(f"{KUNING}?.{PUTIH} masukan nomor :{HIJAU} ")
     if masuk == '98' or masuk == '098':
       try:
-      	os.system('xdg-open https://wa.me/qr/C7AKGGQIHROWM1')
+      	os.system('xdg-open https://wa.me/qr/C7AKGGQIHROWM')
       except IOError:
-      	print()
+      	print('LINK ERROR')
     elif masuk == '99' or masuk == '099':
       try:
       	os.system('xdg-open https://linktr.ee/mikaz_')
