@@ -30,7 +30,7 @@ class convert:
     masuk = input(f"?.masukan nomor :")
     if masuk == '98' or masuk == '098':
       try:
-      	os.system('xdg-open https://wa.me/qr/C7AKGGQIHROWM')
+      	os.system('xdg-open https://wa.me/qr/C7AKGGQIHROWM1')
       except IOError:
       	print('LINK ERROR')
     elif masuk == '99' or masuk == '099':
