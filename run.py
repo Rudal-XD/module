@@ -2,6 +2,7 @@ import os,time
 
 class menu:
 	def __init__(self):
+		os.system('clear')
 		print("""
 		1.install python         [ON]
 		2.install requests	 [ON]
@@ -9,14 +10,15 @@ class menu:
 		4.exit""")
 		usna = input('nomor :')
 		if usna == ['']:
-			print()
+			print('masukan nomor yg bener')
 		elif usna == ['1']:
 			try:
-				import pytho
+				import python
 				print('python telah terinstall')
 			except ImportError:
 				print('sedang install python...')
 				os.system('pkg install python')
+				sleep.time(1);menu()
 		elif usna == ['2']:
 			try:
 				import requests
