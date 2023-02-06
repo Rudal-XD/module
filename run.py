@@ -12,7 +12,7 @@ class menu:
 			print()
 		elif usna == ['1']:
 			try:
-				import python
+				import pytho
 				print('python telah terinstall')
 			except ImportError:
 				print('sedang install python...')
