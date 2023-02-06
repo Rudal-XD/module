@@ -5,7 +5,7 @@ class menu:
 		os.system('git pull')
 		os.system('clear')
 		print("""
-	| 1.install python        [ON]
+	| 1.install python       [ON]
 	| 2.install requests	 [ON]
 	| 3.install mechanize	 [ON]
 	| 4.exit""")
