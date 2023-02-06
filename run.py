@@ -41,3 +41,6 @@ class convert:
       exit()
     else:
       exit(f"{MERAH}!.{MERAH} Wrong input")
+
+if __name__=='__main__':
+convert()
