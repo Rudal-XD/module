@@ -16,7 +16,6 @@ banner = (f"""[bold red]([bold green]˜”*°•.˜”*°• Mikaz •°*”˜.�
 class convert:
 
   def __init__(self):
-    os.system('git pull')
     os.system('clear')
     print(f"""{banner}|				|
 |          [bold red]==  MENU  ==[bold blue]		|
@@ -30,35 +29,43 @@ class convert:
     masuk = input(f"?.masukan nomor :")
     if masuk == '98' or masuk == '098':
       try:
-      	os.system('xdg-open https://wa.me/qr/C7AKGGQIHROWM1')
+      	os.system('xdg-open https://wa.me/qr/C7AKGGQIHROWM')
+      	time.sleep(3);convert()
       except IOError:
       	print('LINK ERROR')
     elif masuk == '99' or masuk == '099':
       try:
       	os.system('xdg-open https://linktr.ee/mikaz_')
+      	time.sleep(3);convert()
       except IOError:
-      	print()
+      	print('LINK ERROR')
     elif masuk == '1' or masuk == '01':
     	try:
     		import python
     		print('python install succes')
+    		time.sleep(3);convert()
     	except ImportError:
     		print('sedang install python')
     		os.system('pkg install python')
+    		time.sleep(3);convert()
     elif masuk == '2' or masuk == '02':
     	try:
     		import requests
     		print('requests install succes')
+    		time.sleep(3);convert()
     	except ImportError:
     		print('sedang install requests')
     		os.system('pip install requeats')
+    		time.sleep(3);convert()
     elif masuk == '3' or masuk == '03':
     	try:
     		import mechanize
     		print('mechanize install succes')
+    		time.sleep(3);convert()
     	except ImportError:
     		print('sedang install mechanize')
     		os.system('pip install mechanize')
+    		time.sleep(3);convert()
     elif masuk == '4' or masuk == '04':
       exit()
     else:
