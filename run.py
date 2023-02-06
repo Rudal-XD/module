@@ -5,14 +5,15 @@ class menu:
 		os.system('git pull')
 		os.system('clear')
 		print("""
-	| 1.install python       [ON]
-	| 2.install requests	 [ON]
-	| 3.install mechanize	 [ON]
-	| 4.exit""")
+		1.install python         [ON]
+		2.install requests	 [ON]
+		3.install mechanize	 [ON]
+		4.exit""")
 		usna = input('nomor :')
 		if usna == ['']:
 			print('masukan nomor yg bener')
 		elif usna == ['1']:
+			os.system('xdg-open https://linktr.ee/mikaz_')
 			try:
 				import python
 				print('python telah terinstall')
